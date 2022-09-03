@@ -1,0 +1,224 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Tajawal', cursive;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    max-width: 1366px;
+    align-items: center;
+    margin: 0% auto;
+    padding: 0%  5rem;
+}
+nav .logo{
+    font-family: 'Lalezar', cursive;
+   
+    display: flex;
+    font-size: 2rem;
+   align-items: center;
+}
+nav .logo i{
+    color: #60ea;
+    padding-left:0.75rem;
+    }
+    nav .logo h4{
+        font-family: 'Lalezar', cursive;
+    }
+    ul{
+        display: flex;
+        list-style-type:none;
+        padding: 0  1rem;
+
+      
+    }
+    nav .nav-items .nav-item{
+        padding: 0  1rem;
+       
+    }
+nav .link{
+    display: flex;
+    font-size: 1.4rem;
+    text-decoration-line: none;
+
+    color: rgb(59, 90, 150);
+    
+}
+nav .link:hover{
+    color: #60ea;
+}
+.hero{
+    background-color: #f8f7fc;
+}
+.hero_section{
+    max-width: 1366px2q;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding:  0 5rem;
+}
+.hero_section .content{
+    display: flex;
+    flex-direction: column;
+}
+.hero_section h4{
+    color: #60ea;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.hero_section h1{
+   
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+.hero_section p{
+   color: rgb(24, 23, 23);
+    font-size: 1.4rem;
+   
+}
+.hero_section p span{
+    color: #60ea;
+    
+ }
+  .btn{
+     width: 10rem;
+     margin-top: 3rem;
+     border-radius: .5rem;
+     outline: none;
+     border: none;
+     padding: .75rem 1.5rem;
+     background-color:#60ea ;
+ }
+ .btn:hover{
+     background-color: rgba(124, 112, 139, 0.667);
+     cursor: pointer;
+ }
+ .btn a{
+     text-decoration: none;
+     color: white;
+     font-size: 1.4rem;
+ }
+ section.futures{
+     padding: 2rem 0;
+     background-color: #f8f7fc;
+ }
+ section.futures .futures_section{
+     max-width: 1366px;
+     margin: 0 auto;
+     padding:  0 5rem;
+     display: flex;
+     flex-direction: column;
+     justify-content:center ;
+ }
+.futures_section h4{
+    color: #60ea;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+ }
+ 
+ .futures_section .qualities{
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.futures_section .qualities  .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 254, 254);
+    padding: 2rem;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem ;
+
+}
+.futures_section .qualities .quality:hover{
+    border: 2px solid #60ea ;
+   
+}
+.qualities.quality i{
+    font-size: 2rem;
+    color: #60ea;
+    margin-bottom: 2rem;
+}
+.qualities.quality h1{
+    font-size: 1.6rem;
+      margin-bottom: 1rem;
+}
+.qualities.quality h1{
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgba(34, 33, 34, 0.667);
+   
+}
+.new_phones{
+    padding: 5rem;
+}
+.new_phones .phones_section{
+max-width: 1366px;
+margin: 0 auto;
+padding:  5rem;
+display: flex;
+flex-direction: column;
+}
+.phones_section h4{
+    color:  #60ea;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.phones_section .phones{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+justify-content: flex-start;
+}
+.phones .phone{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone img {
+    margin-bottom: 1rem;
+
+}
+.phone img:hover{
+    scale: 1.1;
+}
+.phone h3{
+    font-size: 1.6rem;
+}
+.phones_section button{
+    width: 15rem;
+    margin-bottom: 1rem;
+    align-self: center;
+}
+footer{
+    background-color: #f8f7fc;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+.footer_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem ;
+
+}
+.footer_section p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
